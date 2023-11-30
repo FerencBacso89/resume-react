@@ -3,7 +3,7 @@ import './contact.css'
 import { GitHub, LinkedIn, AccessAlarm } from '@mui/icons-material'
 import {SiCodesandbox, SiGithub, SiLinkedin} from "react-icons/si"
 import Button from '@mui/material/Button';
-import at from '../../assets/at_symbol.svg'
+import at from '../../assets/img/at_symbol.svg'
 import Hunflag from'../../assets/img/hu.svg'
 import Enflag from'../../assets/img/gb.svg'
 import profil from '../../assets/img/profile3.jpg'
@@ -42,16 +42,16 @@ function Contact() {
     <>
     <h2 className='container-fluid conTitle' >Contact me</h2>
    <div>
-    <img className='sideProfile' alt='Profile picture' src={profil}></img>
+    <img className='sideProfile' alt='Profile' src={profil}></img>
     <section className='contacts col-10 row-cols-2'>
-           <div className='cline col'> <b>E-mail: </b>ferenc.bacso89 <img className='atSymbol' src={at}></img> gmail.com </div>
+           <div className='cline col'> <b>E-mail: </b>ferenc.bacso89 <img className='atSymbol' alt='at' src={at}></img> gmail.com </div>
            <div className=' col'> <SiLinkedin onClick={HandleLinkedin} className='Contactico'></SiLinkedin> <SiGithub onClick={HandleGit} className='Contactico'></SiGithub> <SiCodesandbox onClick={HandleSandbox} className='Contactico'></SiCodesandbox></div>
            <div className='cline col'> <b>Download CV: </b> <p> 
            <Button id='hunCV' className='CVbtn' onClick={getCV} sx={{ mt: 1, mr: 1 }}>
-            Download my CV <img className='cvFlag' src={Hunflag}></img> version
+            Download my CV <img className='cvFlag' alt='HU' src={Hunflag}></img> version
           </Button>          
           <Button id='engCV' className='CVbtn' onClick={getCV} sx={{ mt: 1, mr: 1 }}>
-            Download my CV <img className='cvFlag' src={Enflag}></img> version
+            Download my CV <img className='cvFlag' alt='ENG' src={Enflag}></img> version
           </Button>
           </p></div>        
     </section>
@@ -59,5 +59,4 @@ function Contact() {
     </>
   )
 }
-
 export default Contact
