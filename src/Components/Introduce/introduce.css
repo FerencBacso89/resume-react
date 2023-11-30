@@ -1,0 +1,97 @@
+.goals{
+    margin: 0 auto;
+}
+.introTitle{
+    position: absolute;
+    color: var(--lightText);
+    font-family: display_reg;
+    font-size: 3.2rem;
+    top:5vh;
+}
+.headerimg{
+    position: absolute;
+    display: block;
+    top: 10vh;
+    margin: 0 auto;
+    width: 80%;
+    height: 35%;
+    left: 10vw;
+    border: 2px solid var(--lightText);
+    border-radius: 2rem;
+}
+.pDsubTitle{
+    position: absolute;
+    top: 20vh;
+    margin: 0 auto;
+    display: inline;
+    color: var(--lightText);
+    font-family: display_reg;
+}
+.flag_size{
+    width:2.5rem;
+    height: 1.3rem;
+}
+.card-deck{
+    position: absolute;
+    top:15%;
+}
+.infoCards{
+    display: flex;
+    flex-direction: row;
+    top:20%;
+}
+.general{
+    margin-top: 1vh;
+    font-size: 1.8rem;
+    font-family: title;
+}
+.general> span{
+    margin-left: 10px;
+}
+.general span>img{
+    width: 3vw;
+}
+.card-title{
+    font-family: codePro_reg;
+    font-size: 2.1rem;
+    font-weight: 600;
+    /* text-decoration: underline overline var(--lightText); */
+    margin-top: 2vh;
+}
+/*personal details*/
+.card-info{
+    background:  var(--primeColor);
+border: 1px solid var(--lightText);
+border-radius: 20px;
+margin: 0.5rem auto;
+max-width: 600px;
+color: beige;
+word-wrap: break-word;
+overflow: hidden;
+}
+/* More info in grid layout  */
+.cardDeep{
+    background:  var(--primeColor);
+    border: 1px solid var(--lightText);
+    border-radius: 20px;
+    margin: 0.5rem auto;
+    /* width: fit-content; */
+    max-width: 43vw;
+    margin:0 auto;
+    color: beige;
+    word-wrap: break-word;
+    overflow: hidden;
+    margin-left: 3vw;
+    position: absolute;
+    top:58vh;
+}
+.cardDeep:first-child{
+    margin-left: 90px;
+}
+/* .dbcont{
+display: flex;
+justify-content: flex-start;
+top: 35vh;
+position: absolute;
+left: 2vw;
+} */

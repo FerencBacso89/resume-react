@@ -1,0 +1,238 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {  }
+
+ /* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  }
+
+ /* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {  }
+
+ /* Large devices (desktops, less than 1200px) */
+@media (min-width:1200px) { 
+    .eduTitle{
+        top: 5vh;
+        margin: 0 auto;
+        position: absolute;
+        text-align: center;
+        font-family: display_reg;
+        font-size:3.2rem;
+        color: var(--lightText);
+        letter-spacing: 0.15rem;
+    }
+    .eduStep{        
+        position: absolute;
+        display: block;
+        top: 25vh;
+        max-width: 70vw;
+        left: 20vw;
+
+    }
+    /*stepper content*/
+    #engStep{
+      font-family: codePro_reg;
+      color: var(--lightText);
+      font-size: 1.4rem;
+      text-align: left;
+    }
+    .MuiStepLabel-label, .Mui-active, .css-1hv8oq8-MuiStepLabel-label{
+      font-family: display_reg !important;
+      color: var(--navbarblue) !important;
+      font-size: 2rem !important;
+    }
+    .MuiStepLabel-iconContainer, .Mui-completed, .css-vnkopk-MuiStepLabel-iconContainer{
+      fill:var(--lightText) !important;
+            margin-left: 0.15vw;
+    }
+    /*stepper numbers text*/
+      .css-10psl7k{
+         fill: var(--primeColor) !important;        
+         font-family: display_reg !important;
+         font-size: 2.5rem !important;
+    }
+    /*number background*/
+    .css-4ff9q7{
+      color: var(--navbarShadow) !important;
+      font-size: 2rem !important;
+   }
+   /*finish box*/
+   .MuiPaper-root, .MuiPaper-elevation, .MuiPaper-elevation0, .row, .css-w241po{
+      color: var(--lightText) !important;
+      background-color: var(--primeColor) !important;      
+   }
+    /*stepper content innertext*/
+     .css-ahj2mt-MuiTypography-root{
+        font-family: codePro_reg !important;
+        font-size: 1.3rem !important;
+        color: var(--lightText) !important;
+        letter-spacing: 0px !important;
+     }
+     /*Stepper number*/
+   .css-117w1su-MuiStepIcon-text{
+        fill: var(--primeColor) !important;        
+        font-family: display_reg !important;
+        font-size: 1.5rem !important;
+     }
+     /*Reset btn*/
+     .css-2fiqgr    {
+      background-color: var(--primeColor) !important;
+      color: var(--lightText) !important;
+      font-family: codePro_reg !important
+     }
+     .css-2fiqgr:hover{
+      background-color: var(--lightText) !important;
+      color: var(--primeColor) !important;
+      transition: background-color 0.25s ease;
+     }
+     /*Continue the next step button*/
+      .css-ofc7jj{
+        background-color: var(--navbarShadow) !important;
+        color: var(--primeColor) !important;
+        font-family: codePro_reg !important;
+        font-size: 1.4rem;
+     } 
+     .css-ofc7jj:hover{
+      color: var(--lightText);
+      transition: color .25 ease;
+     }
+     .css-18st3fs-MuiButtonBase-root-MuiButton-root:hover{
+         color: var(--primeColor) !important;
+         background-color: var(--lightText) !important;
+         transition: background-color 0.25s ease;
+     }
+     /*back the before step*/
+     .css-18st3fs-MuiButtonBase-root-MuiButton-root{
+        background-color: var(--primeColor) !important;
+        color: var(--lightText) !important;
+        font-family: codePro_reg !important;
+        font-size: 1.4rem;
+     }
+     .css-18st3fs-MuiButtonBase-root-MuiButton-root:hover{
+        background-color: var(--lightText) !important;
+        color: var(--primeColor) !important;
+        font-family: codePro_reg !important;
+        font-weight: 500;
+     }
+     .css-2fiqgr.Mui-disabled{
+      display: none;
+     }
+     /* finsih box text*/
+     .css-9l3uo3{
+      font-family: codePro_reg !important;
+      font-size: 1.5rem !important;
+
+     }
+    /*Stepper css*/
+     /*Active step icon */
+     /* .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active{
+        font-size: 3rem;
+        color: var(--navbarblue) !important;
+     }
+    /*Stepper number*/
+ /*    .css-117w1su-MuiStepIcon-text{
+        fill: var(--primeColor) !important;        
+        font-family: display_reg !important;
+        font-size: 1.5rem !important;
+     }
+     /*nextstep numbericon*/
+ /*    .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root{
+        color: var(--navbarShadow) !important;
+        font-size: 2.2rem !important;
+     }
+     /*nextStep text*/
+ /*    .css-1hv8oq8-MuiStepLabel-label{
+        color: var(--lightText) !important;
+        font-size: 1.7rem !important;
+        font-family: display_reg !important;
+     }
+     /*complete stepper icon*/
+ /*    .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed{
+            color:var(--lightText) !important;
+            margin-left: 0.25vw;
+     }
+     /*Completed text*/
+     /* .css-1hv8oq8-MuiStepLabel-label.Mui-completed{
+        /* color: rgba(0, 0, 0, 0.87); */
+   /*     color:var(--lightText);
+        font-size: 1.5rem;
+        font-family: display_ita !important;
+        font-weight: 500;
+     } */
+     /*stepper inner text*/
+     /* .css-ahj2mt-MuiTypography-root{
+        font-family: codePro_reg !important;
+        font-size: 1.3rem !important;
+        color: #fff !important;
+        letter-spacing: 0px !important;
+     } */
+     /*Continue the next step button*/
+     /* .css-1f5ro5o-MuiButtonBase-root-MuiButton-root{
+        background-color: var(--navbarShadow) !important;
+        color: var(--primeColor) !important;
+        font-family: codePro_reg !important;
+        font-size: 1.4rem;
+     } */
+     /*back the before step*/
+     /* .css-18st3fs-MuiButtonBase-root-MuiButton-root{
+        background-color: var(--primeColor) !important;
+        color: var(--lightText) !important;
+        font-family: codePro_reg !important;
+        font-size: 1.4rem;
+     }
+     .css-18st3fs-MuiButtonBase-root-MuiButton-root:hover{
+        background-color: var(--lightText) !important;
+        color: var(--primeColor) !important;
+        font-family: codePro_reg !important;
+        font-weight: 500;
+     } */
+     /*Finished => conclusion*/
+     /* .css-1di5t78-MuiPaper-root{
+        background-color: var(--primeColor) !important  ;
+        color: var(--primeColor) !important;
+     } */
+     /*conclusion text*/
+     /* .css-ahj2mt-MuiTypography-root{
+         color: var(--primeColor) !important; 
+     } */
+     /*Third point fontsize too big gap handle*/
+     /* .stepDiv {
+      font-size:0px !important;
+     } */
+     /*First stepper back btn it's pointless*/
+     /* .css-18st3fs-MuiButtonBase-root-MuiButton-root.Mui-disabled{
+         display:none;
+     }  */
+     /*Description of step*/
+   /*  .descript{
+      text-align: left !important;
+      margin-left: 10px !important;
+     } 
+*/
+     /*cv download flag svg*/
+     .cvFlag{
+      width: 50px;
+      height: 20px;
+     }
+     /*CV download buttons*/
+     #hunCV, #engCV{
+      background-color: var(--primeColor);
+      color: var(--lightText);
+      font-family: codePro_reg !important
+    }
+    #hunCV:hover, #engCV:hover{
+        transition: background-color 250ms ease;
+        background-color: var(--lightText) !important;
+        color: var(--primeColor) !important;    
+        font-weight: 500;
+    }
+    /*stepper title & number*/
+    #stepDiv>.MuiStepLabel-iconContainer{
+      font-size: 3rem;
+      color: var(--navbarblue) !important;
+    }
+    #stepDiv>.css-1hv8oq8-MuiStepLabel-label{
+      color: var(--lightText) !important;
+      font-size: 1.7rem !important;
+      font-family: display_reg !important;
+    }
+
+}

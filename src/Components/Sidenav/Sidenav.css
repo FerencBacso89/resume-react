@@ -1,0 +1,77 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    min-height: 800px;
+    width:80px;
+    background: linear-gradient( 180deg, var(--navbarblue) 50%, transparent );
+    box-shadow: 10px 0px 10px 0px rgb(0, 0, 0, 0.7);
+    transition: box-shadow ease-in-out 50s ;
+    /* -webkit-box-shadow: 5px 0px 5px 0px rgba(37, 199, 199 ,1); /*hexa színkód: #25c7c7 */
+   /* -moz-box-shadow: 5px 0px 5px 0px rgba(37, 199, 199 ,1); */
+    z-index:10;
+} 
+
+#logo-img{
+width: 45px;
+height: 45px;
+clip-path: circle(50%);
+margin: 20px 1.4rem;
+aspect-ratio: 4/3;
+object-fit: cover;
+background-color: #fff;
+}
+#logo-img:hover{
+    transition: background-color 1s ease-in ;
+    background-color: var(--lightText);
+}
+.logo:active #logo-img{
+    background-color: var(--lightText);
+}
+ button{
+     position: absolute;
+    width:50px;
+    height:50px;
+
+ }
+ 
+.navElement {
+    font-size: 2.5rem !important;
+    margin-bottom:3.5rem !important;
+    top: 5vh;
+
+}
+
+.navElement:hover {
+    color: #fff ;
+    
+}
+.bottomLinks{
+    font-size: 2.5rem !important;
+    margin-top:10rem;
+    position: absolute;
+    height: fit-content;
+}
+.downNav{
+    font-size: 2.5rem !important;
+margin-bottom: 1.5rem !important;
+}
+.downNav:hover {
+    color: #fff ;
+    
+}
+.groupNav{
+    display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+}
+.contact{
+    margin-top: 15vh;
+}
+.groupNav:last-child{
+margin-bottom: 5vh;
+}
+.link-elem.active .navElement{
+    background-color: var(--lightText) !important;
+    color: var(--primeColor) !important;
+}

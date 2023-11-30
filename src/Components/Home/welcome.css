@@ -1,0 +1,70 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {  }
+
+ /* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  }
+
+ /* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {  }
+
+ /* Large devices (desktops, less than 1200px) */
+@media (min-width:1200px) { 
+
+    .mindset{
+        position: absolute;
+        display: block;
+        top:-7vh;
+        left:2vw;
+        width:100%;
+        margin: 0 auto;
+        color:#fff;
+        line-height: 3rem !important;
+    } 
+    .Textpos{
+        position: relative;
+        display: flex;       
+        width: 65%; 
+    }
+    .imgPos{
+        position: relative;
+        display:block;
+    }
+
+    .mainTitle{
+        margin:0 auto;
+        word-wrap: break-word;
+        -ms-word-wrap: break-word;
+        text-align: center;
+        width:80%;
+        margin-bottom: 6vh;
+        font-family: display_reg;
+        font-size: 3.2rem;
+        color: var(--lightText);        
+    }   
+    #mindsetText{
+        margin: 10vh auto;
+        width: 100%;
+        max-width: 90ch;
+        height: 50vh;
+        text-align: left;
+        line-height: 2;
+        font-family: codePro_reg;
+        font-size: 1.6rem;
+        padding-left: 4rem;
+    }
+    #myImg{
+        width: 90%;
+        height: auto;
+        clip-path: circle(39%);
+        margin:15vh auto;
+        object-fit: cover;
+        margin-left: 7vw;
+    }
+    .best{
+        font-family: sign ;
+        font-size: 3rem;
+        margin-top:5vh;
+        letter-spacing: 0.2rem;
+    }
+
+}
