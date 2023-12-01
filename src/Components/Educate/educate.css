@@ -34,6 +34,10 @@
       font-size: 1.4rem;
       text-align: left;
     }
+    .css-1hv8oq8-MuiStepLabel-label.Mui-active{
+      
+      color: var(--navbarShadow) !important;
+    }
     .MuiStepLabel-label, .Mui-active, .css-1hv8oq8-MuiStepLabel-label{
       font-family: display_reg !important;
       color: var(--navbarblue) !important;
@@ -43,11 +47,15 @@
       fill:var(--lightText) !important;
             margin-left: 0.15vw;
     }
+    /*first back button */
+    .backBtns:disabled{
+      display: none;
+    }
     /*stepper numbers text*/
       .css-10psl7k{
          fill: var(--primeColor) !important;        
          font-family: display_reg !important;
-         font-size: 2.5rem !important;
+         font-size: 1.9rem !important;
     }
     /*number background*/
     .css-4ff9q7{
@@ -62,7 +70,8 @@
     /*stepper content innertext*/
      .css-ahj2mt-MuiTypography-root{
         font-family: codePro_reg !important;
-        font-size: 1.3rem !important;
+        font-size: 1.5rem !important;
+        line-height: 2;
         color: var(--lightText) !important;
         letter-spacing: 0px !important;
      }
@@ -134,56 +143,57 @@
         font-size: 1.5rem !important;
      }
      /*nextstep numbericon*/
- /*    .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root{
+     .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root{
         color: var(--navbarShadow) !important;
         font-size: 2.2rem !important;
      }
      /*nextStep text*/
- /*    .css-1hv8oq8-MuiStepLabel-label{
+     .css-1hv8oq8-MuiStepLabel-label{
         color: var(--lightText) !important;
         font-size: 1.7rem !important;
         font-family: display_reg !important;
      }
      /*complete stepper icon*/
- /*    .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed{
+     .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed{
             color:var(--lightText) !important;
             margin-left: 0.25vw;
      }
      /*Completed text*/
-     /* .css-1hv8oq8-MuiStepLabel-label.Mui-completed{
-        /* color: rgba(0, 0, 0, 0.87); */
-   /*     color:var(--lightText);
+     .css-1hv8oq8-MuiStepLabel-label.Mui-completed{
+       color: rgba(0, 0, 0, 0.87); 
+       color:var(--lightText);
         font-size: 1.5rem;
         font-family: display_ita !important;
         font-weight: 500;
-     } */
+     }
      /*stepper inner text*/
-     /* .css-ahj2mt-MuiTypography-root{
+     .css-ahj2mt-MuiTypography-root{
         font-family: codePro_reg !important;
-        font-size: 1.3rem !important;
-        color: #fff !important;
+        font-size: 1.6rem !important;
+        color: var(--lightText) !important;
         letter-spacing: 0px !important;
-     } */
+     }
      /*Continue the next step button*/
-     /* .css-1f5ro5o-MuiButtonBase-root-MuiButton-root{
+     .css-1f5ro5o-MuiButtonBase-root-MuiButton-root{
         background-color: var(--navbarShadow) !important;
         color: var(--primeColor) !important;
         font-family: codePro_reg !important;
-        font-size: 1.4rem;
-     } */
+        font-size: 1.5rem !important;
+        min-width: 100px;
+     }
      /*back the before step*/
-     /* .css-18st3fs-MuiButtonBase-root-MuiButton-root{
+     .css-18st3fs-MuiButtonBase-root-MuiButton-root{
         background-color: var(--primeColor) !important;
         color: var(--lightText) !important;
         font-family: codePro_reg !important;
-        font-size: 1.4rem;
+        font-size: 1.5rem !important;
      }
      .css-18st3fs-MuiButtonBase-root-MuiButton-root:hover{
         background-color: var(--lightText) !important;
         color: var(--primeColor) !important;
         font-family: codePro_reg !important;
         font-weight: 500;
-     } */
+     }
      /*Finished => conclusion*/
      /* .css-1di5t78-MuiPaper-root{
         background-color: var(--primeColor) !important  ;

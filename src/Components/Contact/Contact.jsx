@@ -4,6 +4,8 @@ import { GitHub, LinkedIn, AccessAlarm } from '@mui/icons-material'
 import {SiCodesandbox, SiGithub, SiLinkedin} from "react-icons/si"
 import Button from '@mui/material/Button';
 import at from '../../assets/img/at_symbol.svg'
+import hunCV from '../../assets/CV/Bacsó-Ferenc_CV-HUN.pdf'
+import engCV from '../../assets/CV/Bacsó-Ferenc_CV-ENG.pdf'
 import Hunflag from'../../assets/img/hu.svg'
 import Enflag from'../../assets/img/gb.svg'
 import profil from '../../assets/img/profile3.jpg'
@@ -20,8 +22,8 @@ const HandleSandbox=()=>{
 const getCV =(event)=>{
   if(event.target.id === "hunCV"){
     const link = document.createElement('a');
-    link.href = '../../assets/CV/Bacsó-Ferenc_CV-HUN.pdf'; // Az elérési út a PDF fájlhoz
-    link.download = 'Bacsó-Ferenc_CV-HUN.pdf'; // A letöltött fájl neve
+    link.href = hunCV; // Az elérési út a PDF fájlhoz
+    link.download = 'Bacso-Ferenc_CV-HUN.pdf'; // A letöltött fájl neve
     link.target = '_blank';
     document.body.appendChild(link);
     link.click();
@@ -29,12 +31,13 @@ const getCV =(event)=>{
     }
     if(event.target.id === "engCV"){
       const link = document.createElement('a');
-      link.href = '../src/assets/CV/Bacsó-Ferenc_CV-ENG.pdf'; // Az elérési út a PDF fájlhoz
-      link.download = 'Bacsó-Ferenc_CV-ENG.pdf'; // A letöltött fájl neve
+      link.href = engCV; // Az elérési út a PDF fájlhoz
+      link.download = 'Bacso-Ferenc_CV-ENG.pdf'; // A letöltött fájl neve
       link.target = '_blank';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
+
     }
 }
 function Contact() {
