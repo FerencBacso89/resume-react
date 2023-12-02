@@ -5,7 +5,7 @@ import Mycode from './Components/Mycodes/Mycode'
 import Sidenav from './Components/Sidenav/Sidenav'
 //import Introduce from './Components/Introduce/Introduce'
  import Educate from './Components/Educate/Educate'
- import Contact from './Components/Contact/Contact'
+// import Contact from './Components/Contact/Contact'
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
     <Sidenav/>
       <Routes>
           <Route path="/" element={<Welcome/>}></Route>
-          <Route path="/contact" element={<Contact/>}></Route> 
+          {/* <Route path="/contact" element={<Contact/>}></Route>  */}
            <Route path="/mycode" element={<Mycode/>}></Route>
           <Route path="/education" element={<Educate/>}></Route>
       </Routes>
