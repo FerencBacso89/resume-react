@@ -1,6 +1,6 @@
 import React from 'react'
 import './contact.css'
-import { GitHub, LinkedIn, AccessAlarm } from '@mui/icons-material'
+//import { GitHub, LinkedIn, AccessAlarm } from '@mui/icons-material'
 import {SiCodesandbox, SiGithub, SiLinkedin} from "react-icons/si"
 import Button from '@mui/material/Button';
 import at from '../../assets/img/at_symbol.svg'

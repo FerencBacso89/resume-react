@@ -1,4 +1,4 @@
-import birdTour from '../../assets/img/spare/GreatHornedOwl.jpg';
+//import birdTour from '../../assets/img/spare/GreatHornedOwl.jpg';
 import defaultImg from '../../assets/img/thumbnails/Name_job_thmb.png';
 
 

@@ -1,13 +1,13 @@
 import React from 'react'
-import Box from '@mui/material/Box';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
+// import Box from '@mui/material/Box';
+// import Card from '@mui/material/Card';
+// import CardActions from '@mui/material/CardActions';
+// import CardContent from '@mui/material/CardContent';
+// import Button from '@mui/material/Button';
+// import Typography from '@mui/material/Typography';
 
 import './introduce.css';
-import Headimg from "../../assets/img/HeaderName_job.png";
+//import Headimg from "../../assets/img/HeaderName_job.png";
 import Hun from "../../assets/img/hu.svg"
 
 
@@ -19,7 +19,7 @@ const calcAge=() =>{
 }
 function Introduce() {
   /*dynamic hanadle how many years old */
-  const [age, setAge] = React.useState(calcAge());
+ // const [age, setAge] = React.useState(calcAge());
   return (
     <>
     <section className="goals">       
