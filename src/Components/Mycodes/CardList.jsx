@@ -30,7 +30,7 @@ const clickHandler = () =>{
             <h4>{project}</h4>
             <h5>Description:</h5>
             <h5>{description}</h5>
-            <a className='link' type="button"  onClick={clickHandler}>View on web</a>
+            <button className='link' type="button"  onClick={clickHandler}>View on web</button>
         </article>
         
     )
